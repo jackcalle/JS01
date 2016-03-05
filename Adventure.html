@@ -10,7 +10,11 @@
             
             alert(choice);
             if (choice == "STAY") { alert("oh no! you saved plenty of people but you got a little too caught up in the maddness. You are trapped in a room. smoke on one side, and burning hot fire on another...");}
-            else{ if (choice =="RUN") { alert("You quickly run out of the building, but there is an obstacle!! you are now trapped at the end of the hallway. To the left, there is a hall but it is surrounded with fire, and to the right is a door... although it is This door might lead to an exit so what do you do?");}}
+            // It is good practice to seprate else statement from if statement. Makes it easier to see what is in the else statement and the if one.
+            else{ 
+                if (choice =="RUN") { alert("You quickly run out of the building, but there is an obstacle!! you are now trapped at the end of the hallway. To the left, there is a hall but it is surrounded with fire, and to the right is a door... although it is This door might lead to an exit so what do you do?");}
+                
+            }
             
             var choice2 = prompt("Now what do you do. choose to meet your end and 'DIE', or try to 'EXIT' and go out the door with the smoke");
              alert(choice);
